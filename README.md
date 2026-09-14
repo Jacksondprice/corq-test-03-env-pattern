@@ -1,4 +1,3 @@
-# corq-test-03-env-pattern
+# Reporting worker
 
-Corq test fixture. All records and credential strings are fabricated.
-No credential in this repository is valid. Do not use these values in an application.
+Configuration for the nightly reporting worker. The worker reads environment variables before opening its database connection.
